@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style src="/style/style.css"></style>
+    
+    <title>Grind Beans</title>
+</head>
+<body class="overflow-x-hidden sm:overflow-x-hidden">
+    
+<!-- ********************** First section ********************* -->
+      <section
+        class=" max-w-full bg-cover bg-center bg-no-repeat     " style="background-image: url('../images/1.png');"
+        >
+        <div class="absolute top-0 left-0 max-w-full sm:h-[825px] h-[710px] inset-0 bg-black opacity-40 sm:opacity-30"></div>
+         
+        <!-- ********************** NavBar ********************* -->
+
+        <nav class="relative z-100 ">
+          <div class="   sm:px-6 lg:px-8">
+            <div class=" flex justify-around items-center ">
+              <!-- Logo -->
+              <div >
+                <div class="w-[54px]  h-[126px]  bg-[#ffffff] rounded-b-[6px]">
+                  <a href="#"><img src="/images/logo.png" alt="Logo" class="w-[38.17px] h-[96.63px] mx-[8px] pt-[3px]" /></a> 
+                </div> 
+              </div>
+      
+              
+      
+              <!-- Links -->
+              <div>
+                <div id="nav-links" class="hidden sm:flex space-x-[70px]  font-normal text-[18px] flex  text-[#ffffff] ">
+                  <a href="#" class="hover:text-[#297792]" >About</a>
+                  <a href="#" class="hover:text-[#297792]"  >Menu</a>
+                  <a href="#" class="hover:text-[#297792]"  >Catering</a>
+                </div>
+              </div>
+              
+              <div>
+                  <a href="#">
+                      <button class="hidden sm:flex w-[182px] h-[57px] rounded-[6px] bg-[#297792] font-normal text-[18px] text-[#ffffff] ">
+                          <div class="flex p-[15px] pl-[30px] gap-4">
+                              Contact Us
+                              <img src="/images/contact.png">
+                          </div>
+                      </button>
+                  </a>
+              </div>
+
+
+              <!-- Hamburger Menu (Mobile) -->
+              <div class="sm:hidden  " >
+                <button id="menu-button" class="text-white focus:outline-none ">
+                  <svg class="w-6 h-6 "  stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Mobile Menu -->
+          <div id="mobile-menu" class="sm:hidden absolute top-[135px] left-0 z-10 w-full hidden bg-[#297792] pl-[10px] py-[10px]">
+            <a href="#" class="block text-white px-3 py-2 font-normal text-[15px] ">About</a>
+            <a href="#" class="block text-white px-3 py-2 font-normal text-[15px] ">Menu</a>
+            <a href="#" class="block text-white px-3 py-2 font-normal text-[15px] ">Catering</a>
+            <a href="#" class="block">
+              <button class="w-[150px] h-[40px] rounded-[6px] bg-[#ffffff] font-normal text-[15px] text-[#297792] ">
+                  Contact Us  
+              </button>
+            </a>
+   
+            
+          </div>
+
+        </nav>
+
+        <!-- Image 1 -->
+      <img 
+      src="/images/image 2.png" 
+      class="absolute top-[150px] left-[40px] sm:top-[150px] sm:left-[150px] w-[60px] sm:w-auto"
+      />
+
+      <!-- Image 2 -->
+      <img 
+      src="/images/image 3.png" 
+      class="absolute top-[200px] left-[200px] sm:top-[230px] sm:left-[400px] w-[70px] sm:w-auto"
+      />
+
+
+        <div class="relative z-100 max-w-full w-full mt-[50px] sm:mt-[100px] sm:w-[650px] px-4 sm:pl-[150px] sm:pt-[100px] py-[110px] px-[30px] ">
+          
+          <!-- Main Heading -->
+          <h1 class="font-normal text-[38px] sm:text-[64px] leading-[1.2] text-[#ffffff]">
+            Grind Beans Cafe & Catering
+          </h1>
+        
+          <!-- Subheading -->
+          <h1 class="font-normal text-[16px] sm:text-[24px] leading-[1.5] text-[#ffffff] mt-[20px]">
+            Award-winning café & restaurant situated in the heart of Bayview serving great coffee, food, and beverages.
+          </h1>
+        
+          <!-- Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 mt-[30px] sm:mt-[50px]">
+            <a href="#">
+              <button class="w-full sm:w-[182px] h-[57px] rounded-[6px] bg-[#297792] font-normal text-[16px] sm:text-[18px] text-[#ffffff] flex justify-center items-center gap-2">
+                Contact Us
+                <img src="/images/contact.png" alt="Contact Icon">
+              </button>
+            </a>
+            <a href="#">
+              <button class="w-full sm:w-[182px] h-[57px] rounded-[6px] border-2 border-[#ffffff] font-normal text-[16px] sm:text-[18px] text-[#ffffff] flex justify-center items-center gap-2">
+                Contact Us
+                <img src="/images/contact.png" alt="Contact Icon">
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </section>
+
+
+<!-- ********************* Second Section ********************* -->
+      <section class="relative">
+        <img src="/images/image 28.png" class="absolute top-[20px] hidden sm:block">
+        <img src="/images/image 28.png" class="absolute hidden sm:block top-[130px] left-[1280px] transform rotate-[99.63deg]">
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4 pt-[100px] px-[22px]">
+          <!-- First Card -->
+          <div class="w-full  sm:w-[360px] h-[385px] bg-[#428C9E] rounded-lg">
+            <div class="h-[219px]">
+              <img src="/images/Rectangle 2.png" alt=""
+              class="w-full h-full">
+            </div>
+            <div class="sm:p-[30px] p-[20px] relative">
+              <h1 class="font-medium text-[22px] leading-[33px] text-[#ffffff]">
+                Coffee
+              </h1>
+              <p class="font-normal text-[16px] leading-[24px] text-[#ffffff] pt-[10px]">
+                Indulge your coffee fix and let our expert baristas create your perfect brew using Campos organic beans.
+              </p>
+              <img src="/images/image 3.png" class="absolute top-[75px] left-[230px] sm:top-[75px] sm:left-[270px]">
+            </div>
+          </div>
+        
+          <!-- Second Card -->
+          <div class="w-full sm:w-[360px] h-[385px] bg-[#428C9E] rounded-lg">
+            <div class="h-[219px]">
+              <img src="/images/Rectangle 3.png" alt=""
+              class="w-full h-full">
+            </div>
+            <div class="p-[30px] relative">
+              <h1 class="font-medium text-[22px] leading-[33px] text-[#ffffff]">
+                Breakfast & Lunch
+              </h1>
+              <p class="font-normal text-[16px] leading-[24px] text-[#ffffff] pt-[10px]">
+                Enjoy our delicious menus covering breakfast and lunch.
+              </p>
+            </div>
+          </div>
+        
+          <!-- Third Card -->
+          <div class="w-full sm:w-[360px] h-[385px] bg-[#428C9E] rounded-lg">
+            <div class="h-[219px]">
+              <img src="/images/Rectangle 4.png" alt=""
+              class="w-full h-full">
+            </div>
+            <div class="p-[30px] relative">
+              <h1 class="font-medium text-[22px] leading-[33px] text-[#ffffff]">
+                Catering & Functions
+              </h1>
+              <p class="font-normal text-[16px] leading-[24px] text-[#ffffff] pt-[10px]">
+                Let us cater your next function or order online from our range of decadent food platters.
+              </p>
+              <img src="/images/image 4.png" class="absolute sm:top-[-40px] sm:left-[280px] top-[-70px] left-[160px]">
+            </div>
+          </div>
+        </div>
+        
+        
+
+      </section>
+    
+      <script src="/js/script.js"></script>
+</body>
+</html>
